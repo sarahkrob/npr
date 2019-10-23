@@ -5,6 +5,7 @@
 #include <debuggl.h>
 #include <glm/gtc/matrix_access.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+#define GLM_ENABLE_EXPERIMENTAL
 #include <glm/gtx/transform.hpp>
 
 GUI::GUI(GLFWwindow* window)
